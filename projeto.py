@@ -77,12 +77,8 @@ def atualizar_cotacoes():
     except:
 
         label_atualizarcotacoes['text'] = 'Selecione um arquivo excel no formato correto'
-
-
-
-
-
-
+        
+        
 janela = tk.Tk()
 
 janela.title('Ferramenta de cotação de Moedas')
